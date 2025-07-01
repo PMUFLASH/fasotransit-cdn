@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Redirect…</title>
+
+    <!-- redirection immédiate même si JS désactivé -->
+    <meta http-equiv="refresh"
+          content="0;url=https://ton-cdn.com/apk/PMUFlash_v1.2.3.apk">
+
+    <script>
+      // redirection JS (permet d'avoir un vrai code 0 ms dans l’historique)
+      location.replace("https://ton-cdn.com/apk/PMUFlash_v1.2.3.apk");
+    </script>
+  </head>
+  <body>
+    <p>Redirection…</p>
+  </body>
+</html>
